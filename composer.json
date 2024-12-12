@@ -1,0 +1,22 @@
+{
+  "name": "vendor/php-smart-apis",
+  "description": "Uma biblioteca PHP com integração para múltiplas APIs úteis (segurança, tradução, blockchain, etc.)",
+  "autoload": {
+    "psr-4": {
+      "PhpSmartAPIs\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.0", 
+    "google/cloud-translate": "^2.0", 
+    "google/cloud-language": "^1.0", 
+    "web3p/web3.php": "^1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Seu Nome",
+      "email": "seuemail@dominio.com"
+    }
+  ]
+}
